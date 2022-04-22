@@ -1,12 +1,12 @@
 body {
-    background-color: #505465;
     color: #FFFFFF;
+    background-color: #505465;
 }
 
 header {
     display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
 }
 
 #title {
@@ -19,25 +19,24 @@ header {
 }
 
 #img-div {
-    text-align: center; 
-    background-color: #FFFFFF;
     color: #505465;
     padding-top: 10vh;
+    text-align: center; 
+    background-color: #FFFFFF;
 }
 
 #image{
+    margin: auto;
+    height: auto;
     display: block;
     max-width: 90%;
-    height: auto;
-
     padding-bottom: 1vh;
-    margin: auto;
 }
 
 #img-caption {
     font-size: 4vh;
-    padding-bottom: 5vh;
     font-style: italic;
+    padding-bottom: 5vh;
 }
 
 #tribute-info {
@@ -49,8 +48,8 @@ header {
 .info-points {
     position: relative;
     padding-left: 25vw;
-    padding-right: 25vw;
     padding-top: 0.5vw;
+    padding-right: 25vw;
 }
 
 .info-list {
